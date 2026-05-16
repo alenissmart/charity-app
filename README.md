@@ -11,7 +11,7 @@ This guide walks you through setting up and running this app from scratch on you
 3. Open the downloaded file and follow the installer — just keep clicking Next
 4. Once done, open a terminal and verify it worked:
    ```
-   node -v
+   node --version
    ```
    You should see a version number like `v22.0.0`
 
@@ -24,7 +24,7 @@ This guide walks you through setting up and running this app from scratch on you
 3. **Windows:** during installation, when asked about default editor, select **Use Visual Studio Code** — leave everything else as default
 4. Once done, verify it worked:
    ```
-   git -v
+   git --version
    ```
    You should see a version number like `git version 2.47.0`
 
@@ -159,7 +159,7 @@ Your work will then be reviewed before being merged into the main project.
 ---
 
 **`npm install` fails**
-- Make sure Node.js is installed correctly by running `node -v` in the terminal
+- Make sure Node.js is installed correctly by running `node --version` in the terminal
 
 **QR code doesn't work**
 - Make sure your phone and computer are on the same Wi-Fi network
